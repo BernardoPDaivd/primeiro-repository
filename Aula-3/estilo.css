@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    font-size:40px;
+}
+h6{
+    color: green;
+    font-size: 10;
+}
+video{
+    width:320px;
+    height:240px;
+    border:none;
+}       

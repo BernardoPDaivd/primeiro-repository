@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Tabela</title>
+    <style>
+
+        h1{ 
+            color:blue;
+            font-size:12px;
+            margin-bottom: 15px;
+        }
+        h3{
+            margin-bottom: 5px;
+        }
+        p{
+            color: green;
+            margin:10px;
+        }
+        body{
+            padding: 50px;
+        }
+        #rosa{
+            color:pink;
+        }
+        #azul{
+            color:blue;
+        }
+        #verde{
+            color:green;
+        }
+        .botão{
+            color:green;
+        }
+    </style><!--Muda estilo de todo marcado dentro do comando-->
+</head>
+<body>
+    <h1>Primeira Tabela</h1><!--Criação de titulo-->
+    <!-- Tabela -->
+    <table border="1"><!--Criação de tabelas(border=criação de bordas ma tabela,"numero"negrito da parte de fora da borda.)-->
+        <tr><!--Criação de cabeçalho-->
+            <th>Nome</th><!--Criação de linhas-->
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Bernardo</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Zé das Couves</td>
+            <td>60</td>
+        </tr>
+    </table>
+    <!--Lista-->
+    <p>Ola mundo!</p>
+    <h3>Lista de compras</h3>
+    <ul><!--Lista desordenada-->
+        <li>Arroz.</li><!--define item-->
+        <li>Fejão.</li>
+        <li>Café.</li>
+        <li>Pão.</li>
+        <li>Presunto.</li>
+    </ul>
+    <h3>Ordem de chegada</h3>
+    <ol><!--Lista ordenada-->
+        <li id="rosa">Jão</li><!--usando id para da um atributo unico a tag-->
+        <li id="azul">Pedro</li>
+        <li id="verde">Marcus</li>
+    </ol>
+    <h1>Mesmo estilo</h1><!--teste do comando style-->
+
+    <button class="botão">ok</button>
+    <button class="botão">cancelar</button>
+
+</body>
+</html>
