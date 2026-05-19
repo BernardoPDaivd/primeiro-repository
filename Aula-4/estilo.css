@@ -1,0 +1,21 @@
+.botao{
+    background-color:#4CAF50;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border:none;
+    cursor:pointer;
+}
+.botao:hover{
+    background-color: #9c167b;
+}
+.tabela-preco{
+    width:100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tabela-preco th{
+    background-color: #186309f6;
+    color: #ffff;
+}

@@ -1,0 +1,39 @@
+.form-page{
+    background-color: #a5a5a5;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    background-color: #f0ebeb;
+    border-radius: 10px;
+    width: 150px;
+    height: 120px;
+    padding: 90px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-login h3{
+    text-align:center;
+}
+.form-login #botao{
+    background-color: rgb(0, 155, 0);
+    color: #fff;
+    margin-top: 10px;
+    border:none;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.form-login .inputs{
+    margin:5px 0 0 0;
+}
+.texto {
+    border: 1px solid rgb(116, 58, 224);
+    border-radius: 3px;
+    padding:2px;
+}
