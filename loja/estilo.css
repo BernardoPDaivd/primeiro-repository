@@ -5,7 +5,7 @@
 }
 .header{
     background-color: rgb(1, 1, 104);
-    margin: 20px 80px;
+    margin: 20px 70px;
     padding: 16px;
 
     display: flex;
@@ -13,7 +13,7 @@
     align-items: center;
 }
 #logo{
-    width:150px;
+    width:100px;
 }
 .campo-busca{
     width: 500px;
@@ -34,4 +34,71 @@
 }
 #btn-buscar:hover{
     background-color: #d5c8c8;
+}
+.conteudo-principal{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 232px;
+}
+.barra-lateral{
+    width: 300px;
+    height: 100vh; 
+    background-color: #0935fa;
+}
+.produtos{
+    width: 80%;
+    margin-left: 48px;
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    display:flex;
+}
+.fotos-tenis{
+    width:320px;
+}
+.descricao-tenis{
+    width: 100vw;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.titulo-produto{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.preco{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.botoes{
+    display:flex;
+
+}
+.botao-carrinho{
+    width: 180px;
+    height: 40px; 
+    background-color: #0935fa;
+    padding:10px;
+    border:none;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.btn-favoritos{
+    background-color: #ccc;
+    display:flex;
+    justify-content: center;
+
+    height: 48px;
+    margin-top: 10px;
 }
